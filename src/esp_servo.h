@@ -1,6 +1,11 @@
+#pragma once
+#ifndef _EM_ESP_SERVO_H_
+#define _EM_ESP_SERVO_H_
+
 /**
  * @file esp_servo.h
  */
+
 #include <stdint.h>
 
 namespace em {
@@ -92,3 +97,5 @@ class EspServo {
   const uint32_t max_pulse_width_us_;
 };
 }  // namespace em
+
+#endif
